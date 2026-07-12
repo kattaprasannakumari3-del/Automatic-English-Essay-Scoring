@@ -1,24 +1,43 @@
-# Essay Scoring System & OCR Engine
+# Automatic English Essay Scoring System
 
-This is a comprehensive Django-based application for automatically scoring English essays using Machine Learning (LSTM & Word2Vec) and extracting text from handwritten images using Tesseract OCR.
+## Project Overview
+This project is an AI-based web application that automatically evaluates English essays using Machine Learning and Deep Learning techniques. It also supports OCR and voice input.
 
 ## Features
-- **AI Scoring**: Evaluation of semantic depth and coherence.
-- **Handwriting OCR**: Image-to-text processing via Tesseract.
-- **Voice Features**: Built-in speech recognition for essay dictation.
+- User Login & Registration
+- Essay Text Input
+- Image to Text (OCR)
+- Voice to Text
+- Automatic Essay Scoring
+- Score Prediction using LSTM
+- User Dashboard
 
-## Deployment Details (Railway.app)
-This project is configured for deployment on Railway using a **Dockerfile**.
+## Technologies Used
+- Python
+- Django
+- TensorFlow
+- NLP
+- LSTM
+- Word2Vec
+- HTML
+- CSS
+- JavaScript
+- SQLite
 
-### Environment Variables
-For production, you should set these in your Railway dashboard:
-- `DEBUG`: Set to `False`
-- `SECRET_KEY`: Your production secret key
-- `DATABASE_URL`: Automatically provided if you add a PostgreSQL service
+## Installation
 
-### Local Setup
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Install Tesseract OCR locally.
-4. Run migrations: `python manage.py migrate`
-5. Run server: `python manage.py runserver`
+```bash
+git clone https://github.com/YOUR_USERNAME/Automatic-English-Essay-Scoring.git
+
+cd Automatic-English-Essay-Scoring
+
+pip install -r requirements.txt
+
+python manage.py runserver
+```
+
+## Future Scope
+- Grammar Correction
+- Multi-language Essay Evaluation
+- AI Feedback Generation
+- Cloud Deployment
