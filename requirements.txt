@@ -1,0 +1,16 @@
+django>=4.2.0
+pandas
+numpy>=1.26.0,<2.0.0
+nltk
+gensim
+tensorflow-cpu==2.15.0
+keras==2.15.0
+scikit-learn
+pillow
+pytesseract
+gunicorn
+whitenoise
+python-dotenv
+dj-database-url
+psycopg2-binary
+typing-extensions>=4.10.0
