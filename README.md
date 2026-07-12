@@ -1,23 +1,25 @@
 # Automatic English Essay Scoring System
 
 ## Project Overview
-This project is an AI-based web application that automatically evaluates English essays using Machine Learning and Deep Learning techniques. It also supports OCR and voice input.
+This project is an AI-based web application that automatically evaluates English essays using Machine Learning and Deep Learning techniques. It supports text input, OCR (Image to Text), and Voice Input for essay evaluation.
 
 ## Features
-- User Login & Registration
+- User Registration & Login
 - Essay Text Input
-- Image to Text (OCR)
+- OCR (Image to Text)
 - Voice to Text
 - Automatic Essay Scoring
-- Score Prediction using LSTM
+- AI-based Score Prediction using LSTM
 - User Dashboard
+- Essay History
 
 ## Technologies Used
 - Python
 - Django
 - TensorFlow
-- NLP
-- LSTM
+- Machine Learning
+- Deep Learning (LSTM)
+- Natural Language Processing (NLP)
 - Word2Vec
 - HTML
 - CSS
@@ -27,7 +29,7 @@ This project is an AI-based web application that automatically evaluates English
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Automatic-English-Essay-Scoring.git
+git clone https://github.com/kattaprasannakumari3-del/Automatic-English-Essay-Scoring.git
 
 cd Automatic-English-Essay-Scoring
 
@@ -36,8 +38,28 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
+## Project Screenshots
+
+### Login Page
+![Login Page](Login-Page.jpg)
+
+### Dashboard
+![Dashboard](Dashboard.jpg)
+
+### Essay Input Page
+![Essay Input Page](Essay-Input-Page.jpg)
+
+### Essay Scoring Result
+![Essay Scoring Result](Essay-Scoring-Page.jpg)
+
 ## Future Scope
-- Grammar Correction
+- Grammar Error Detection
 - Multi-language Essay Evaluation
-- AI Feedback Generation
+- AI-based Feedback Generation
 - Cloud Deployment
+- Mobile Application Support
+
+## Author
+**Katta Prasanna Kumari**
+
+MCA Final Year Project
