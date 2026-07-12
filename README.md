@@ -41,18 +41,23 @@ python manage.py runserver
 ## Project Screenshots
 
 ### Login Page
+
 ![Login Page](Login-Page.jpg)
 
 ### Dashboard
+
 ![Dashboard](Dashboard.jpg)
 
 ### Essay Input Page
-![Essay Input Page](Essay-Input-Page.jpg)
+
+![Essay Input Page](Eassy-Input-Page.jpg)
 
 ### Essay Scoring Result
-![Essay Scoring Result](Essay-Scoring-Page.jpg)
+
+![Essay Scoring Result](Eassy-Scoring-Page.jpg)
 
 ## Future Scope
+
 - Grammar Error Detection
 - Multi-language Essay Evaluation
 - AI-based Feedback Generation
@@ -60,6 +65,7 @@ python manage.py runserver
 - Mobile Application Support
 
 ## Author
+
 **Katta Prasanna Kumari**
 
 MCA Final Year Project
